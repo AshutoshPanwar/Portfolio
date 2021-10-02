@@ -17,7 +17,7 @@
 }
 .header .container{
     max-width: auto;
-    margin: 0px 100px;
+    margin: 0px 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,6 +89,7 @@ nav ul li a{
 }
 .content-section .content .button{
     margin-top: 50px;
+    
 }
 .content-section .content .button a{
     background-color: #183266;
@@ -97,6 +98,7 @@ nav ul li a{
     color: #fff;
     font-size: 25px;
     letter-spacing: 1.5px;
+    border-radius: 10px;
 }
 .content-section .content .button a:hover{
     background-color: #7f8daa00;
@@ -123,4 +125,35 @@ nav ul li a{
 }
 #github{
     color: black;
+}
+@media only screen and (max-width: 700px){
+    .image-section{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+    .content-section{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .content-section .content h2{
+        text-align: center;
+        float: unset;
+        padding: 0%;
+        margin: 0px;
+        width: 100%;
+        font-size: 3vh;
+    }
+    .header .container .logo{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+        font-size: 2vh;
+    }
+    .content-section .title{
+        font-size: 4vh;
+    }
 }
