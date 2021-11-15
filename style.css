@@ -64,7 +64,7 @@ a{
     cursor: pointer;
 }
 
-.bar{
+.bar1{
     display: block;
     width: 25px;
     height: 3px;
@@ -81,13 +81,13 @@ a{
          display: block;
      }
 
-     .hamburger.active .bar:nth-child(2){
+     .hamburger.active .bar1:nth-child(2){
          opacity: 0;
      }
-     .hamburger.active .bar:nth-child(1){
+     .hamburger.active .bar1:nth-child(1){
          transform: translateY(8px) rotate(45deg);
      }
-     .hamburger.active .bar:nth-child(3){
+     .hamburger.active .bar1:nth-child(3){
          transform: translateY(-8px) rotate(-45deg);
      }
 
@@ -253,7 +253,7 @@ a{
 
 .about-section .title h1{
     color: #183266;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .personal-info p{
@@ -261,12 +261,14 @@ a{
     padding-left: 0;
 }
 
-.personal-info b{
-    color: #1DA1F2;
-}
 .personal-info i{
+    color: dodgerblue;
+}
+
+.personal-info .circle{
     color: green;
 }
+
 
 @media only screen and (max-width: 700px){
     .about-section{
@@ -296,4 +298,126 @@ a{
         width: 100%;
         align-items: center;
     }
+}
+
+
+/* My Skills */
+
+.skill-container{
+    text-align: center;
+    width: 100%;
+    color: #183266;
+}
+
+.skill-container h1{
+    font-size: 3vw;
+}
+.skill-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-content .skill-img {
+    width: 50%;
+}
+
+.skill-content .skill-img img{
+    width: 80%;
+}
+
+.skill-content .skill-bar{
+    width: 50%;
+    padding: 10%;
+    padding-right: 0;
+}
+
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.bar{
+    position: relative;
+    width: 100%;
+    border: 2px solid #3362cc;
+    height: 12px;
+    /* border-radius: 20px; */
+    background-color: #fff;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    /* height: 9px; */
+    height: 10px;
+    /* border-radius: 10px; */
+    /* background-color: #0d96e0; */
+    background-color: #3362cc;
+
+
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#javascript-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+#jQuery-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 58%;
+    }
+} 
+
+@media only screen and (max-width: 700px){
+    .skill-content{
+        flex-direction: column;
+    }
+
+    .skill-content .skill-img {
+        width: 100%;
+    }
+
+    .skill-content .skill-img img{
+        width: 100%;
+    }
+
+    .skill-content .skill-bar{
+        width: 90%;
+    }
+
+    .skill-container h1{
+        font-size: 2rem;
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+    
 }
