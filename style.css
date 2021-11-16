@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+/* font-family: 'WindSong', cursive; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #edf9fe;
+  }
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #183266;
+}
+
+.navbar{
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+    font-family: 'WindSong', cursive;
+}
+
+#nav-branding{
+    font-weight: 900;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: dodgerblue;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar1{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    background-color: #183266;
+}
+
+
+@media(max-width:768px){
+     .hamburger{
+         display: block;
+     }
+
+     .hamburger.active .bar1:nth-child(2){
+         opacity: 0;
+     }
+     .hamburger.active .bar1:nth-child(1){
+         transform: translateY(8px) rotate(45deg);
+     }
+     .hamburger.active .bar1:nth-child(3){
+         transform: translateY(-8px) rotate(-45deg);
+     }
+
+     .nav-menu{
+         position: fixed;
+         left: -100%;
+         top: 70px;
+         gap: 0;
+         flex-direction: column;
+         background-color: #edf9fe;
+         width: 100%;
+         text-align: center;
+         transition: 0.3s;
+     }
+
+     .nav-item{
+         margin: 16px 0;
+     }
+
+     .nav-menu.active{
+         left: 0;
+     }
+
+     .nav-branding{
+        font-size: 8vw;
+     }
+}
+
+
+/* Home Page  */
+ 
+.section{
+    padding: 5% 8%;
+    width: 100%;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-section{
+    width: 100%;
+}
+
+.content-section .title{
+    color: #183266;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 3% 0;
+}
+
+.content-section .content p{
+    width: 90%;
+    font-size: 25px;
+    color: #858e9d;
+    line-height: 40px;
+}
+
+.image-section{
+    width: 100%;
+}
+.image-section img{
+    width: 100%;
+}
+
+.content-section .content .button{
+    margin-top: 7%;    
+}
+
+.content-section .content .button a{
+    background-color: #183266;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+}
+.content-section .content .button a:hover{
+    background-color: #7f8daa00;
+    color: #183266;
+    border: 2px solid #183266;
+}
+
+.content-section .social{
+    margin-top: 6%;
+}
+
+.content-section .social i{
+    /* color: #000; */
+    font-size: 40px;
+    padding: 3%;
+}
+.content-section .social i:hover{
+    color: #183266;
+}
+#linkedin{
+    color: dodgerblue;
+}
+#twitter{
+    color: #1DA1F2;
+}
+#github{
+    color: black;
+}
+
+@media only screen and (max-width: 700px){
+    .container-1{
+        flex-direction: column;
+    }
+
+    .content-section{
+        text-align: center;
+        width: 100%;
+    }
+
+    .content-section .title{
+        font-size: 4vh;
+    }
+
+    .content-section .content p{
+        text-align: center;
+        padding: 0%;
+        margin: 0px;
+        width: 100%;
+        font-size: 3vh;
+        margin-top: 30px;
+    }
+
+    .content-section .content .button{
+        margin-top: 50px;    
+    }
+
+    .content-section .social{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+/* About section  */
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 8%;
+    width: 100%;
+}
+
+.about-img img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.about-section .title{
+    width: 70%;
+}
+
+.about-section .title h1{
+    color: #183266;
+    font-size: 60px;
+}
+
+.personal-info p{
+    padding: 3%;
+    padding-left: 0;
+}
+
+.personal-info i{
+    color: dodgerblue;
+}
+
+.personal-info .circle{
+    color: green;
+}
+
+
+@media only screen and (max-width: 700px){
+    .about-section{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .about-section .title{
+        width: 100%;
+    }
+
+    .about-section .title h1{
+        font-size: 6vh;
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+
+    .about-section .personal-info{
+        padding-bottom: 35px;
+    }
+
+    .about-section .personal-info p{
+        padding-top: 20px;
+    }
+
+    .about-section .about-img img{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+/* My Skills */
+
+.skill-container{
+    text-align: center;
+    width: 100%;
+    color: #183266;
+}
+
+.skill-container h1{
+    font-size: 3vw;
+}
+.skill-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-content .skill-img {
+    width: 50%;
+}
+
+.skill-content .skill-img img{
+    width: 80%;
+}
+
+.skill-content .skill-bar{
+    width: 50%;
+    padding: 10%;
+    padding-right: 0;
+}
+
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.bar{
+    position: relative;
+    width: 100%;
+    border: 2px solid #3362cc;
+    height: 12px;
+    background-color: #fff;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 10px;
+    background-color: #3362cc;
+
+
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#Python-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+#Azure-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 58%;
+    }
+} 
+
+@media only screen and (max-width: 700px){
+    .skill-content{
+        flex-direction: column;
+    }
+
+    .skill-content .skill-img {
+        width: 100%;
+    }
+
+    .skill-content .skill-img img{
+        width: 100%;
+    }
+
+    .skill-content .skill-bar{
+        width: 90%;
+    }
+
+    .skill-container h1{
+        font-size: 2rem;
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+    
+}
+
+
+/* Contact-Us */
+
+.contact-us-text{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-us-text h1{
+  color: #183266;
+  font-size: 3vw;
+  padding: 2%;
+  padding-bottom: 0;
+}
+
+
+.body-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-heading{
+    width: 50%;
+}
+
+#contact-heading img{
+    width: 90%;
+}
+
+.container-form{
+    width: 50%;
+    padding: 5%;
+    padding-right: 10%;
+}
+
+/* ** */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    border-radius: 20px;
+  }
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    border-radius: 20px;
+  }
+  
+
+  input[type=submit] {
+    background-color: #3362cc;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 700px){
+    .body-content{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+
+    #contact-heading{
+        width: 100%;
+    }
+
+    .container-form{
+        width: 90%;
+        padding: 5%;
+    }
+  }
+
+
+  /* Footer  */
+ 
+
+  .links h3{
+      background: #183266;
+      color: #fff;
+      padding: 2%;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  @media only screen and (max-width: 700px){
+    .links h3{
+        font-size: 15px;
+    } 
+  }
