@@ -380,7 +380,7 @@ a{
         width: 75%;
     }
 }
-#javascript-bar{
+#Python-bar{
     animation: js-fill 2s forwards;
 }
 @keyframes js-fill {
@@ -388,7 +388,7 @@ a{
         width: 72%;
     }
 }
-#jQuery-bar{
+#Azure-bar{
     animation: jQuery-fill 2s forwards;
 }
 @keyframes jQuery-fill{
