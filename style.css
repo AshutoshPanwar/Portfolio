@@ -9,12 +9,10 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: #edf9fe;
-    /* background-color: black; */
   }
 
 html{
     font-family: 'Poppins', sans-serif;
-    /* font-size: 62.5%; */
     font-size: 100%;
 }
 
@@ -97,7 +95,6 @@ a{
          top: 70px;
          gap: 0;
          flex-direction: column;
-         /* background-color: #183266; */
          background-color: #edf9fe;
          width: 100%;
          text-align: center;
@@ -136,7 +133,6 @@ a{
 
 .content-section .title{
     color: #183266;
-    /* font-size: 2vw; */
     font-size: 35px;
     font-weight: 800;
     padding: 3% 0;
@@ -213,7 +209,6 @@ a{
 
     .content-section .content p{
         text-align: center;
-        /* float: unset; */
         padding: 0%;
         margin: 0px;
         width: 100%;
@@ -343,17 +338,13 @@ a{
     width: 100%;
     border: 2px solid #3362cc;
     height: 12px;
-    /* border-radius: 20px; */
     background-color: #fff;
 
 }
 .bar div{
     position: relative;
     width: 0;
-    /* height: 9px; */
     height: 10px;
-    /* border-radius: 10px; */
-    /* background-color: #0d96e0; */
     background-color: #3362cc;
 
 
