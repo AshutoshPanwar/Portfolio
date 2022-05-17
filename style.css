@@ -403,6 +403,37 @@ a {
 	}
 }
 
+/* GitHub-Dashbord */
+#git_hub_dashbord {
+	width: 100%;
+	display: block;
+}
+
+#git_hub_dashbord h1 {
+	color: #183266;
+	font-size: 3vw;
+	padding: 2%;
+	margin-bottom: 8%;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+#git_hub_dashbord img {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 700px) {
+	#git_hub_dashbord h1 {
+		font-size: 2rem;
+		padding-top: 15%;
+		padding-bottom: 5%;
+	}
+}
+
 /* Contact-Us */
 
 .contact-us-text {
