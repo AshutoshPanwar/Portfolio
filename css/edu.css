@@ -262,3 +262,19 @@ a {
 .card .container p {
 	color: #7f8da9;
 }
+
+/* Footer  */
+
+.links h3 {
+	background: #183266;
+	color: #fff;
+	padding: 2%;
+	text-align: center;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+	.links h3 {
+		font-size: 15px;
+	}
+}
