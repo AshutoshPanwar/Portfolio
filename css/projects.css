@@ -147,3 +147,53 @@ a {
 .block .right p {
 	color: #183266;
 }
+
+/* Projects */
+.block1 {
+	display: flex;
+	margin: 5% 5% 5% 5%;
+	justify-content: space-evenly;
+}
+
+.card {
+	padding: 2% 2% 1% 2%;
+	margin: 3% 2% 3% 2%;
+	border-radius: 20px;
+	background-color: #a5e0fa;
+	width: 50%;
+	/* max-width: 400px; */
+}
+
+.container {
+}
+
+.container h1 {
+	background-color: #a5e0fa;
+	padding-bottom: 5%;
+}
+
+.container p {
+	background-color: #a5e0fa;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	background-color: #a5e0fa;
+	padding-top: 3%;
+}
+
+.about p {
+	color: #edf9fe;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.about .pngs {
+	background-color: #a5e0fa;
+}
+
+.about .pngs img {
+	height: 80px;
+	background-color: #a5e0fa;
+}
