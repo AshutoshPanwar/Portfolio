@@ -145,7 +145,7 @@ a {
 }
 
 .block .right p {
-	color: #183266;
+	color: #7f8da9;
 }
 
 /* Projects */
@@ -160,6 +160,7 @@ a {
 	margin: 3% 2% 3% 2%;
 	border-radius: 20px;
 	background-color: #a5e0fa;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 	width: 50%;
 	/* max-width: 400px; */
 }
@@ -169,22 +170,24 @@ a {
 
 .container h1 {
 	background-color: #a5e0fa;
-	padding-bottom: 5%;
+	color: #001c55;
+	padding-bottom: 4%;
 }
 
 .container p {
 	background-color: #a5e0fa;
+	color: #183266;
 }
 
 .about {
 	display: flex;
 	justify-content: space-between;
 	background-color: #a5e0fa;
-	padding-top: 3%;
+	padding-top: 4%;
 }
 
 .about p {
-	color: #edf9fe;
+	color: #7f8da9;
 	margin-top: auto;
 	margin-bottom: auto;
 }
@@ -194,6 +197,6 @@ a {
 }
 
 .about .pngs img {
-	height: 80px;
+	height: 50px;
 	background-color: #a5e0fa;
 }
