@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap");
+/* font-family: 'WindSong', cursive; */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: #edf9fe;
+}
+
+html {
+	font-family: "Poppins", sans-serif;
+	font-size: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #183266;
+}
+
+.navbar {
+	min-height: 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 8%;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+
+.nav-branding {
+	font-size: 2rem;
+	font-family: "WindSong", cursive;
+}
+
+#nav-branding {
+	font-weight: 900;
+}
+
+.nav-link {
+	transition: 0.7s ease;
+}
+
+.nav-link:hover {
+	color: dodgerblue;
+}
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+
+.bar1 {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	color: black;
+	background-color: #183266;
+}
+
+@media (max-width: 768px) {
+	.hamburger {
+		display: block;
+	}
+
+	.hamburger.active .bar1:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger.active .bar1:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar1:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 70px;
+		gap: 0;
+		flex-direction: column;
+		background-color: #edf9fe;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+
+	.nav-item {
+		margin: 16px 0;
+	}
+
+	.nav-menu.active {
+		left: 0;
+	}
+
+	.nav-branding {
+		font-size: 8vw;
+	}
+}
+
+/* Home Page  */
+.block {
+	display: flex;
+	margin: 3% 5% 5% 5%;
+}
+
+.block .left {
+	width: 50%;
+}
+
+.block .left img {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block .right {
+	width: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+.block .right h1 {
+	color: #001c55;
+	font-family: "Roboto", sans-serif;
+	font-size: 5rem;
+	padding: 3%;
+}
+
+.block .right p {
+	color: #183266;
+}
