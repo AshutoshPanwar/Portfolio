@@ -116,7 +116,7 @@ a {
 /* Home Page  */
 .block {
 	display: flex;
-	margin: 3% 5% 5% 5%;
+	margin: 3% 5% 3% 5%;
 }
 
 .block .left {
@@ -151,7 +151,7 @@ a {
 /* Projects */
 .block1 {
 	display: flex;
-	margin: 5% 5% 5% 5%;
+	margin: 5% 5% 3% 5%;
 	justify-content: space-evenly;
 }
 
@@ -201,6 +201,18 @@ a {
 	background-color: #a5e0fa;
 }
 
+/* Button  */
+.button {
+	text-align: center;
+}
+
+.button a {
+	padding: 1% 3%;
+	background-color: #183266;
+	color: #fff;
+	border-radius: 10px;
+}
+
 /* Footer  */
 
 .links h3 {
@@ -209,6 +221,7 @@ a {
 	padding: 2%;
 	text-align: center;
 	font-size: 20px;
+	margin-top: 4%;
 }
 
 @media only screen and (max-width: 700px) {
