@@ -146,21 +146,21 @@ a {
 .block .right h1 {
 	color: #001c55;
 	font-family: "Roboto", sans-serif;
-	font-size: 5rem;
+	font-size: 5vw;
 	padding: 3%;
 }
 
-.block .right h2 {
+.block .right p {
 	font-family: "Roboto", sans-serif;
-	color: #001c55;
-	font-size: 2rem;
+	color: #7f8da9;
+	font-size: 2vw;
 }
 
 /* Degree Information */
 .heading {
 	color: #001c55;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2vw;
 	font-family: sans-serif;
 	margin-top: 8%;
 }
@@ -169,7 +169,7 @@ a {
 	margin: 3% 5% 1% 5%;
 	display: flex;
 	width: 95%;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .block1 .image {
@@ -186,6 +186,7 @@ a {
 	right: 0;
 	bottom: 0;
 	margin: auto;
+	width: 100%;
 }
 
 .card {
@@ -204,6 +205,7 @@ a {
 	color: #001c55;
 	/* font-family: "Source Sans Pro", sans-serif; */
 	padding-bottom: 1%;
+	font-size: 2vw;
 }
 
 .card .head h2 span {
@@ -216,23 +218,32 @@ a {
 	background-color: #8cb7d7;
 	font-family: "Roboto", sans-serif;
 	color: #183266;
+	font-size: 1.8vw;
 }
 
 .card .body {
 	padding: 3% 3%;
 }
 
-.card .body ul li {
+/* .card .body ul li {
 	padding: 1%;
 	color: #445a87;
 	font-size: larger;
+} */
+.card .body p {
+	padding: 1%;
+	color: #445a87;
+	font-size: 1.5vw;
 }
 
 .card .body a {
 	background-color: #183266;
 	color: #fff;
-	padding: 1%;
+	padding: 1% 3%;
 	border-radius: 10px;
+	float: right;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
 
 /* Certification */
@@ -262,6 +273,80 @@ a {
 
 .card .container p {
 	color: #7f8da9;
+}
+
+@media only screen and (max-width: 425px) {
+	.block {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.block .left {
+		width: 100%;
+	}
+
+	.block .right {
+		width: 100%;
+	}
+
+	.block .right h1 {
+		font-size: 10vw;
+	}
+
+	.block .right p {
+		font-size: 5vw;
+	}
+
+	.block1 {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+	}
+
+	.block1 .image {
+		width: 100%;
+		/* padding-top: 50%; */
+		padding-bottom: 55%;
+	}
+
+	.image img {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.card {
+		width: 90%;
+		margin: 5% 5%;
+	}
+
+	.heading {
+		font-size: 5vw;
+		margin-bottom: 10%;
+	}
+
+	.set {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.card .head h2 {
+		font-size: 4vw;
+	}
+
+	.card .head h3 {
+		font-size: 3vw;
+	}
+
+	.card .body p {
+		font-size: 3vw;
+	}
+
+	.card .body a {
+		font-size: 3vw;
+	}
 }
 
 /* Footer  */
