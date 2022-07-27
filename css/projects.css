@@ -140,7 +140,7 @@ a {
 .block .right h1 {
 	color: #001c55;
 	font-family: "Roboto", sans-serif;
-	font-size: 5rem;
+	font-size: 10vw;
 	padding: 3%;
 }
 
@@ -211,6 +211,51 @@ a {
 	background-color: #183266;
 	color: #fff;
 	border-radius: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+	.block {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.block .left {
+		width: 100%;
+	}
+
+	.block .right {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.block1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card {
+		width: 100%;
+		margin: 5% 0;
+		padding: 2% 2% 2% 2%;
+	}
+
+	.container h1 {
+		font-size: 8vw;
+	}
+
+	.container p {
+		font-size: 4vw;
+	}
+
+	.button {
+		margin: 10%;
+	}
+
+	.button a {
+		font-size: 5vw;
+		padding: 3% 5%;
+	}
 }
 
 /* Footer  */
