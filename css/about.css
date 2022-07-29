@@ -183,10 +183,16 @@ a {
 
 	.block .right h1 {
 		font-size: 10vw;
+		padding: 10% 0%;
+	}
+
+	.block .right p {
+		padding: 5% 0;
 	}
 
 	.heading {
 		font-size: 6vw;
+		margin: 15%;
 	}
 }
 
