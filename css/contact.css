@@ -219,14 +219,25 @@ a {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+		/* margin: 5% 0; */
+		padding: 5% 0;
 	}
 
 	.block .right h1 {
-		margin-top: 10%;
+		margin-top: 5%;
 		font-size: 10vw;
 	}
 
 	.block .right p {
+		padding: 3% 1%;
+	}
+
+	.right .resume {
+		padding-top: 10%;
+	}
+
+	#rev {
+		flex-direction: column-reverse;
 	}
 }
 
