@@ -279,6 +279,8 @@ a {
 	.block {
 		display: flex;
 		flex-direction: column;
+		/* padding: 10% 0; */
+		margin-top: 10%;
 	}
 
 	.block .left {
@@ -287,10 +289,12 @@ a {
 
 	.block .right {
 		width: 100%;
+		margin: 10% 0;
 	}
 
 	.block .right h1 {
 		font-size: 10vw;
+		/* padding: 5% 0; */
 	}
 
 	.block .right p {
@@ -323,7 +327,7 @@ a {
 
 	.heading {
 		font-size: 5vw;
-		margin-bottom: 10%;
+		margin: 15% 0;
 	}
 
 	.set {
