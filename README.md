@@ -1,1 +1,42 @@
-# Portfolio
+<p align="center"> 
+    <img src="img/thumbnail.png" align="center" height="150"></img>
+</p>
+
+<h1 align="center"> 🔥Ashutosh Panwar Portfolio 🔥 </h1> 
+<h3 align="center"> A clean, beautiful, responsive portfolio <br /> template for Software Developers! </h3>
+
+<p align="center">If you like my work, You can follow me on <a href="https://www.linkedin.com/in/ashutosh-panwar1100/">LinkedIn</a>,<a href="https://twitter.com/Ashu_Panwar1100"> Twitter</a>.</p>
+
+# Sections 🌈
+
+✔️ About me\
+✔️ Skills \
+✔️ Github Dashbord\
+✔️ Experience\
+✔️ Certifications 🏆\
+✔️ Education\
+✔️ Contact me
+
+To view a live example, **[click here](http://ashutoshpanwar.me/Portfoli/)**
+
+# Clone and Use 🌈
+
+-   The website is completely built on `HTLM5`,`CSS3` and `javascript`
+-   Just simply copy and paste the command below in you terminal:
+    ```bash
+     git clone https://github.com/AshutoshPanwar/Portfolio.git
+    ```
+    This will clone the whole repository in your system.
+-   Now the project is ready to use
+-   Browse inside the folder and click on index.html file
+
+# Deployment 📦
+
+-   This WebSite is hosted on GitHub Pages
+-   I highly recommend using [Github Pages] to achieve this the EASIEST WAY.
+
+# Technologies used 🛠️
+
+-   HTML5
+-   CSS3
+-   Js
