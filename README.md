@@ -1,5 +1,5 @@
 <p align="center"> 
-    <img src="img/thumbnail.png" align="center" height="150"></img>
+    <img src="img/thumbnail.png" align="center" ></img>
 </p>
 
 <h1 align="center"> 🔥Ashutosh Panwar Portfolio 🔥 </h1> 
@@ -19,7 +19,7 @@
 
 To view a live example, **[click here](http://ashutoshpanwar.me/Portfoli/)**
 
-# Clone and Use 🌈
+# Clone and Use ✏️
 
 -   The website is completely built on `HTLM5`,`CSS3` and `javascript`
 -   Just simply copy and paste the command below in you terminal:
