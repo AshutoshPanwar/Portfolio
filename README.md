@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 🔥Ashutosh Panwar Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive portfolio <br /> template for Software Developers! </h3>
+<h3 align="center"> A clean, beautiful, responsive portfolio</h3>
 
 <p align="center">If you like my work, You can follow me on <a href="https://www.linkedin.com/in/ashutosh-panwar1100/">LinkedIn</a>,<a href="https://twitter.com/Ashu_Panwar1100"> Twitter</a>.</p>
 
