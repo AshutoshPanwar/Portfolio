@@ -17,7 +17,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](http://ashutoshpanwar.me/Portfoli/)**
+To view a live example, **[click here](http://ashutoshpanwar.me/Portfolio/)**
 
 # Clone and Use ✏️
 
